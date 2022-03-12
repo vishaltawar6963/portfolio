@@ -1,0 +1,219 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    h1{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    h2{
+        font-weight: 700;
+    }
+    h4 {
+        font-weight:500 ;
+    }
+    h5{
+        font-weight: 700;
+    }
+}
+a{
+    right: 2px ;
+    bottom: 2px;
+}
+.header{
+    background-image: url(./assets/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    
+   
+}
+
+.section-1{
+    img{
+        border-radius: 1rem;
+    }
+    .right{
+        font-family: 'Roboto', sans-serif;
+        h1{
+            font-weight: 900;
+            
+        }
+        i{
+            font-size: 2rem;
+        }
+        
+    }
+}
+.section-2{
+    margin-top: 7rem;
+    .right{
+        position: relative;
+      
+    
+        img{
+            position: absolute;
+           bottom: 0px;
+           border-radius: 1rem 1rem 0rem 0rem;
+           box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.233);
+        }
+    }
+}
+
+.section-4{
+    .card{border-radius: 1rem 1rem 0rem 0rem;}
+    
+    .top-1{
+        height: 14rem;
+        background-image: url(./assets/features1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 1rem 1rem 0rem 0rem;
+        
+      span{
+          right: 3%;
+          bottom: -1.3rem;
+          box-shadow: .2px .2px 3px gray;
+          i{
+              font-size: 1.5rem;
+              font-weight: 900;
+          }
+      }
+    }
+    .top-2{
+        height: 14rem;
+        background-image: url(./assets/features2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 1rem 1rem 0rem 0rem;
+        
+      span{
+          right: 3%;
+          bottom: -1.3rem;
+          box-shadow: .2px .2px 3px gray;
+          i{
+              font-size: 1.5rem;
+              font-weight: 900;
+          }
+      }
+    }
+    .top-3{
+        height: 14rem;
+        background-image: url(./assets/features3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 1rem 1rem 0rem 0rem;
+        
+      span{
+          right: 3%;
+          bottom: -1.3rem;
+          box-shadow: .2px .2px 3px gray;
+          i{
+              font-size: 1.5rem;
+              font-weight: 900;
+          }
+      }
+    }
+ 
+}
+.section-5{
+    .wrapper{
+        border-radius: 1rem;
+    }
+}
+.section-6{
+    .item{
+        
+        position: relative;
+        .icons{
+         position: absolute;
+         bottom: 0px;
+        }
+    }
+    .back-image{
+        height: 80vh;
+        // border: 2px solid red;
+        background-image: url(./assets/background3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .bar{
+            position: absolute;
+            bottom: -3rem;
+            right: 10%;
+            width: 80%;
+            
+        }
+    }
+}
+
+.section-7{
+.parent{
+    .child{
+        right: 10%;
+        font-size: 3rem;
+        color: gray;
+    }
+} 
+}
+.secton-8{
+
+}
+//    992 breakpoint
+@media (max-width:992px){
+ 
+
+    .section-2{
+        margin-top: 0;
+        .right{
+            position: static;
+          
+        
+            img{
+                position: static;
+               bottom: 0px;
+            }
+        }
+    }
+    .section-6{
+        margin-bottom: 10rem;
+         .back-image{
+             height: 50vh;
+             
+             .bar{
+                 bottom: -9rem;
+             }
+         }
+     }
+    
+}
+@media   (max-width:650px){
+    nav
+
+    .section-1{
+        h1{
+             font-size: 1.5rem;
+         }
+     }
+     .section-2{
+         h1{
+             font-size: 1rem;
+         }
+     }
+     .section-4{
+         h1{
+             font-size: 2rem;
+         }
+     }
+    .section-3,.section-5,.section-9{
+        h1{
+             font-size: 1.5rem;
+         }
+     }
+   
+    
+  
+}
